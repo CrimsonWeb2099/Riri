@@ -5,7 +5,7 @@ const text = document.getElementById("letter-text");
 
 
 const message = `
-¡Feliz cumpleaños, Riri! 🖤
+¡Feliz cumpleaños, Riri!
 
 Espero que hayas tenido un día hermoso,
 lleno de felicidad, sonrisas y momentos especiales.
@@ -24,25 +24,26 @@ Eres una persona increíble.
 
 enter.onclick = () => {
 
-loading.style.display = "none";
-content.style.display = "block";
+    loading.style.display = "none";
+    content.style.display = "block";
 
-typeWriter();
+    typeWriter();
 
 };
 
 
 let i = 0;
 
+
 function typeWriter(){
 
-if(i < message.length){
+    if(i < message.length){
 
-text.innerHTML += message.charAt(i);
-i++;
+        text.innerHTML += message.charAt(i);
+        i++;
 
-setTimeout(typeWriter,45);
+        setTimeout(typeWriter,45);
 
-}
+    }
 
 }
