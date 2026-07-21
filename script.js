@@ -3,7 +3,6 @@ const loading = document.querySelector(".loading-screen");
 const content = document.getElementById("content");
 const text = document.getElementById("letter-text");
 
-
 const message = `
 ¡Feliz cumpleaños, Riri!
 
@@ -18,22 +17,22 @@ y que nunca te falten razones para sonreír.
 
 Eres una persona increíble.
 
-🖤
+Te deseo lo mejor siempre.
 `;
-
 
 enter.onclick = () => {
 
     loading.style.display = "none";
     content.style.display = "block";
 
+    text.innerHTML = "";
+    i = 0;
+
     typeWriter();
 
 };
 
-
 let i = 0;
-
 
 function typeWriter(){
 
@@ -42,7 +41,7 @@ function typeWriter(){
         text.innerHTML += message.charAt(i);
         i++;
 
-        setTimeout(typeWriter,45);
+        setTimeout(typeWriter, 45);
 
     }
 
