@@ -1,6 +1,7 @@
 body{
     margin:0;
-    background:black;
+    background:#000;
+    font-family: "Times New Roman", serif;
 }
 
 .loading-screen{
@@ -11,19 +12,49 @@ body{
     align-items:center;
     flex-direction:column;
     text-align:center;
+    background:
+    radial-gradient(circle, #222 0%, #000 70%);
 }
 
 .logo{
     color:white;
     font-size:70px;
+    letter-spacing:8px;
+    text-shadow:
+    0 0 10px #fff,
+    0 0 20px #777;
+    animation:fade 3s infinite alternate;
 }
 
 .loading-text{
-    color:white;
-    font-size:35px;
+    color:#aaa;
+    font-size:25px;
+    margin-top:15px;
+    letter-spacing:4px;
 }
 
 #enter{
-    margin-top:30px;
-    padding:20px 60px;
+    margin-top:40px;
+    padding:15px 50px;
+    background:transparent;
+    color:white;
+    border:1px solid white;
+    font-size:18px;
+    letter-spacing:3px;
+    cursor:pointer;
+    transition:.4s;
+}
+
+#enter:hover{
+    background:white;
+    color:black;
+}
+
+@keyframes fade{
+    from{
+        opacity:.5;
+    }
+    to{
+        opacity:1;
+    }
 }
