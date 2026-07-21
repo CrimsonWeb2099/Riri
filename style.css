@@ -135,3 +135,16 @@ width:220px;
 }
 
 }
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:radial-gradient(circle,#6f8cff22 0%,transparent 70%);
+    animation:pulse 6s infinite;
+}
+
+@keyframes pulse{
+    0%{opacity:.3;}
+    50%{opacity:.8;}
+    100%{opacity:.3;}
+}
