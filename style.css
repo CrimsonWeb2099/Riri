@@ -121,3 +121,60 @@ to{
 }
 
 }
+.arrow{
+    text-align:center;
+    margin-top:50px;
+}
+
+.arrow a{
+    color:white;
+    font-size:50px;
+    text-decoration:none;
+    animation:arrowMove 1.5s infinite;
+}
+
+
+#evanescence{
+    min-height:100vh;
+    background:#050505;
+    color:#ddd;
+    text-align:center;
+    padding:80px 20px;
+}
+
+
+#evanescence h1{
+    font-family:'Cinzel', serif;
+    font-size:60px;
+    color:white;
+    letter-spacing:8px;
+}
+
+
+#evanescence h2{
+    font-family:'Cinzel', serif;
+    color:#bfc7d5;
+    font-size:35px;
+    margin-top:50px;
+}
+
+
+#evanescence p{
+    max-width:700px;
+    margin:20px auto;
+    font-size:24px;
+    line-height:1.8;
+}
+
+
+@keyframes arrowMove{
+
+0%,100%{
+    transform:translateY(0);
+}
+
+50%{
+    transform:translateY(15px);
+}
+
+}
