@@ -1,76 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@300;400;600&display=swap');
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-html,body{
-    width:100%;
-    height:100%;
-}
-
 body{
-    background:#050505;
-    color:white;
-    font-family:'Cormorant Garamond',serif;
+    margin:0;
+    background:black;
 }
 
 .loading-screen{
-    width:100%;
+    width:100vw;
     height:100vh;
-
     display:flex;
-    flex-direction:column;
-
     justify-content:center;
     align-items:center;
-
+    flex-direction:column;
     text-align:center;
-
-    padding:20px;
 }
 
 .logo{
-    font-family:'Cinzel',serif;
-    font-size:4rem;
-    letter-spacing:8px;
-    text-shadow:0 0 20px #8aa9ff;
-    margin-bottom:20px;
+    color:white;
+    font-size:70px;
 }
 
 .loading-text{
-    font-size:2rem;
-    margin-bottom:35px;
+    color:white;
+    font-size:35px;
 }
 
 #enter{
-    padding:18px 60px;
-    border:2px solid #8aa9ff;
-    background:transparent;
-    color:white;
-    font-size:18px;
-    letter-spacing:5px;
-    cursor:pointer;
-    transition:.3s;
-}
-
-#enter:hover{
-    background:#8aa9ff;
-    color:black;
-    box-shadow:0 0 25px #8aa9ff;
-}
-
-@media(max-width:768px){
-
-.logo{
-    font-size:2.6rem;
-    letter-spacing:4px;
-}
-
-.loading-text{
-    font-size:1.7rem;
-}
-
+    margin-top:30px;
+    padding:20px 60px;
 }
