@@ -5,19 +5,25 @@ const text = document.getElementById("letter-text");
 
 
 const message = `
-Happy Birthday, Riri.
+¡Feliz cumpleaños, Riri! 
 
-Today is a special day because it celebrates someone
-who deserves beautiful things, happiness and love.
+Espero que hayas tenido un día hermoso,
+lleno de felicidad, sonrisas y momentos especiales.
 
-I hope this new year of your life brings you
-amazing memories, dreams coming true and moments
-that make you smile.
+Te deseo mucho amor, alegría y éxito
+en este nuevo año de tu vida.
 
-Thank you for being you.
-Never forget how special you are.
+Que todos tus sueños se cumplan
+y que nunca te falten razones para sonreír.
 
-🖤
+Eres una persona increíble
+y espero que nunca olvides lo especial que eres.
+
+Gracias por ser una amiga tan linda.
+
+Te deseo lo mejor siempre.
+
+
 `;
 
 
