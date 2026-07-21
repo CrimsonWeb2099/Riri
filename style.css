@@ -107,3 +107,29 @@ box-shadow:0 0 30px #7ea2ff;
 transform:scale(1.05);
 
 }
+.logo{
+    width:220px;
+    margin-bottom:25px;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:48px;
+letter-spacing:3px;
+}
+
+h2{
+font-size:30px;
+}
+
+p{
+width:95%;
+font-size:20px;
+}
+
+#enter{
+width:220px;
+}
+
+}
