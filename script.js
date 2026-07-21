@@ -1,3 +1,5 @@
+const text = document.getElementById("letter-text");
+
 const message = `
 ¡Feliz cumpleaños, Riri!
 
@@ -15,23 +17,11 @@ Eres una persona increíble.
 Te deseo lo mejor siempre.
 `;
 
-enter.onclick = () => {
-
-    loading.style.display = "none";
-    content.style.display = "block";
-
-    text.innerHTML = "";
-    i = 0;
-
-    typeWriter();
-
-};
-
 let i = 0;
 
-function typeWriter(){
+function typeWriter() {
 
-    if(i < message.length){
+    if (i < message.length) {
 
         text.innerHTML += message.charAt(i);
         i++;
@@ -41,3 +31,5 @@ function typeWriter(){
     }
 
 }
+
+typeWriter();
