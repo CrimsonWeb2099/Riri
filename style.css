@@ -1,11 +1,14 @@
 body{
     margin:0;
     background:#000;
+    color:#fff;
     font-family:'Cormorant Garamond', serif;
 }
 
+/* ------------------ BIENVENIDA ------------------ */
+
 .loading-screen{
-    width:100vw;
+    width:100%;
     height:100vh;
     display:flex;
     justify-content:center;
@@ -16,23 +19,95 @@ body{
 }
 
 .logo{
-    color:#fff;
-    font-family:'Cinzel', serif;
+    font-family:'Cinzel',serif;
     font-size:70px;
     letter-spacing:10px;
-    text-shadow:0 0 15px #8d99a8;
+    color:white;
+    text-shadow:0 0 15px #7d8796;
 }
 
 .loading-text{
-    color:#b8c0ca;
     font-size:30px;
+    color:#b8c0ca;
     margin-top:10px;
     margin-bottom:40px;
 }
 
-.loading-screen a{
+.enter-link{
     text-decoration:none;
 }
 
 #enter{
-    padding
+    padding:15px 50px;
+    background:transparent;
+    color:white;
+    border:1px solid #8d99a8;
+    font-size:18px;
+    letter-spacing:3px;
+    cursor:pointer;
+    transition:.4s;
+    font-family:'Cinzel',serif;
+}
+
+#enter:hover{
+    background:white;
+    color:black;
+    box-shadow:0 0 20px #8d99a8;
+}
+
+/* ------------------ CARTA ------------------ */
+
+#letter{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background:#000;
+    padding:60px 20px;
+    box-sizing:border-box;
+}
+
+.paper{
+    width:90%;
+    max-width:700px;
+    background:#111820;
+    border:1px solid #5b6573;
+    padding:50px;
+    box-sizing:border-box;
+    text-align:center;
+}
+
+.paper h2{
+    font-family:'Cinzel',serif;
+    font-size:42px;
+    margin-bottom:30px;
+}
+
+.paper p{
+    font-size:24px;
+    line-height:1.8;
+    white-space:pre-line;
+}
+
+.arrow{
+    margin-top:40px;
+}
+
+.arrow a{
+    display:inline-block;
+    width:70px;
+    height:70px;
+    line-height:70px;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    border:1px solid #8d99a8;
+    font-size:36px;
+    transition:.4s;
+}
+
+.arrow a:hover{
+    background:white;
+    color:black;
+}
