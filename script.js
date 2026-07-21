@@ -1,8 +1,3 @@
-const enter = document.getElementById("enter");
-const loading = document.querySelector(".loading-screen");
-const content = document.getElementById("content");
-const text = document.getElementById("letter-text");
-
 const message = `
 ¡Feliz cumpleaños, Riri!
 
