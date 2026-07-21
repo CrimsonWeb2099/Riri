@@ -66,15 +66,40 @@ body{
 }
 
 
-#letter h2{
-    font-family:'Cinzel', serif;
-    font-size:45px;
+.paper{
+    max-width:700px;
+    margin:auto;
+    padding:50px;
+    background:rgba(255,255,255,0.03);
+    border:1px solid #333;
+    box-shadow:0 0 30px #000;
+    animation:letterAppear 2s ease;
 }
 
 
-#letter p{
+.paper h2{
+    font-family:'Cinzel', serif;
+    font-size:45px;
+    margin-bottom:30px;
+}
+
+
+.paper p{
     font-size:24px;
-    max-width:700px;
-    margin:auto;
     line-height:1.8;
+}
+
+
+@keyframes letterAppear{
+
+from{
+    opacity:0;
+    transform:translateY(40px);
+}
+
+to{
+    opacity:1;
+    transform:translateY(0);
+}
+
 }
