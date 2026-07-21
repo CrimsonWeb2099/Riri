@@ -1,8 +1,9 @@
 body{
     margin:0;
-    background:#000;
-    font-family: "Times New Roman", serif;
+    background:black;
+    font-family:'Cormorant Garamond', serif;
 }
+
 
 .loading-screen{
     width:100vw;
@@ -16,22 +17,24 @@ body{
     radial-gradient(circle, #222 0%, #000 70%);
 }
 
+
 .logo{
     color:white;
+    font-family:'Cinzel', serif;
     font-size:70px;
     letter-spacing:8px;
     text-shadow:
-    0 0 10px #fff,
+    0 0 10px white,
     0 0 20px #777;
-    animation:fade 3s infinite alternate;
 }
+
 
 .loading-text{
     color:#aaa;
-    font-size:25px;
-    margin-top:15px;
-    letter-spacing:4px;
+    font-size:30px;
+    letter-spacing:3px;
 }
+
 
 #enter{
     margin-top:40px;
@@ -45,16 +48,33 @@ body{
     transition:.4s;
 }
 
+
 #enter:hover{
     background:white;
     color:black;
+    box-shadow:0 0 20px white;
 }
 
-@keyframes fade{
-    from{
-        opacity:.5;
-    }
-    to{
-        opacity:1;
-    }
+
+#letter{
+    display:none;
+    min-height:100vh;
+    background:black;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+
+#letter h2{
+    font-family:'Cinzel', serif;
+    font-size:45px;
+}
+
+
+#letter p{
+    font-size:24px;
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
 }
