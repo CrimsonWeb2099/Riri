@@ -3,18 +3,13 @@ const text = document.getElementById("letter-text");
 const message = `
 ¡Feliz cumpleaños, Riri!
 
-Espero que hayas tenido un día hermoso,
-lleno de felicidad, sonrisas y momentos especiales.
+Aunque tu cumpleaños fue ayer, quería desearte que este nuevo año de vida esté lleno de felicidad, momentos inolvidables y muchas sonrisas.
 
-Te deseo mucho amor, alegría y éxito
-en este nuevo año de tu vida.
+Espero que cada uno de tus sueños se vaya cumpliendo poco a poco y que nunca te falten personas que te quieran y te apoyen.
 
-Que todos tus sueños se cumplan
-y que nunca te falten razones para sonreír.
+Gracias por ser una persona tan especial. Deseo que disfrutes muchísimo todo lo que viene y que la música de Evanescence siga acompañándote en los buenos y malos momentos.
 
-Eres una persona increíble.
-
-Te deseo lo mejor siempre.
+Con mucho cariño.
 `;
 
 let i = 0;
@@ -26,10 +21,10 @@ function typeWriter() {
         text.innerHTML += message.charAt(i);
         i++;
 
-        setTimeout(typeWriter, 45);
+        setTimeout(typeWriter, 40);
 
     }
 
 }
 
-typeWriter();
+window.onload = typeWriter;
