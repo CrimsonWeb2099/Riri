@@ -1,30 +1,37 @@
 const text = document.getElementById("letter-text");
 
-const message = `
-¡Feliz cumpleaños, Riri!
+const message = `¡Feliz cumpleaños, Riri!
 
-Aunque tu cumpleaños fue ayer, quería desearte que este nuevo año de vida esté lleno de felicidad, momentos inolvidables y muchas sonrisas.
+Aunque tu cumpleaños ya pasó, quería desearte que este nuevo año de vida esté lleno de felicidad, amor y momentos inolvidables.
 
-Espero que cada uno de tus sueños se vaya cumpliendo poco a poco y que nunca te falten personas que te quieran y te apoyen.
+Espero que todos tus sueños se hagan realidad y que siempre encuentres motivos para sonreír.
 
-Gracias por ser una persona tan especial. Deseo que disfrutes muchísimo todo lo que viene y que la música de Evanescence siga acompañándote en los buenos y malos momentos.
+Gracias por ser una persona tan especial.
 
-Con mucho cariño.
-`;
+Con mucho cariño.`;
 
 let i = 0;
 
-function typeWriter() {
+function typeWriter(){
 
-    if (i < message.length) {
+if(i < message.length){
 
-        text.innerHTML += message.charAt(i);
-        i++;
+text.innerHTML += message.charAt(i);
 
-        setTimeout(typeWriter, 40);
+i++;
 
-    }
+setTimeout(typeWriter,40);
 
 }
 
-window.onload = typeWriter;
+}
+
+window.onload = function(){
+
+if(text){
+
+typeWriter();
+
+}
+
+}
