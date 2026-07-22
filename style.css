@@ -115,7 +115,48 @@ font-family:'Cinzel',serif;
 
 #evanescence p{
 max-width:800px;
+  
 margin:20px auto;
 font-size:24px;
 line-height:1.7;
+}
+.playlist{
+    max-width:850px;
+    margin:50px auto;
+}
+
+.playlist a{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding:18px 22px;
+    margin:15px 0;
+    background:#11161d;
+    border:1px solid #5d6876;
+    border-radius:10px;
+    color:#f2f4f7;
+    text-decoration:none;
+    transition:.35s;
+}
+
+.playlist a:hover{
+    background:#1b2430;
+    transform:translateX(10px);
+    box-shadow:0 0 20px rgba(93,104,118,.5);
+}
+
+.playlist span{
+    font-size:30px;
+}
+
+.playlist h3{
+    margin:0;
+    font-family:'Cinzel',serif;
+    font-size:22px;
+}
+
+.playlist p{
+    margin:5px 0 0;
+    color:#aab4c0;
+    font-size:17px;
 }
