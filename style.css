@@ -306,3 +306,17 @@ margin:0 auto 15px;
 display:block;
 border:1px solid #5d6876;
 }
+.albums .album{
+text-align:center;
+}
+
+.albums .album img{
+width:120px !important;
+height:120px !important;
+max-width:120px !important;
+max-height:120px !important;
+object-fit:cover !important;
+display:block !important;
+margin:0 auto 15px !important;
+border-radius:10px !important;
+}
