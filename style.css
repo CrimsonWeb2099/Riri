@@ -297,3 +297,12 @@ font-family:'Cinzel',serif;
 background:white;
 color:black;
   }
+.album img{
+width:120px;
+height:120px;
+object-fit:cover;
+border-radius:10px;
+margin:0 auto 15px;
+display:block;
+border:1px solid #5d6876;
+}
