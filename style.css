@@ -11,7 +11,8 @@ display:flex;
 justify-content:center;
 align-items:center;
 flex-direction:column;
-background:radial-gradient(circle,#34495e,#080d14);
+background:
+radial-gradient(circle at center,#526b85,#111c2a 45%,#080d14);
 text-align:center;
 }
 
@@ -107,8 +108,8 @@ color:#101820;
 min-height:100vh;
 padding:80px 20px;
 background:
-radial-gradient(circle at center, rgba(90,120,150,.25), transparent 65%),
-#080d14;
+radial-gradient(circle at top,rgba(120,150,180,.45),transparent 55%),
+linear-gradient(180deg,#26384d 0%,#111c2a 45%,#080d14 100%);
 text-align:center;
 }
 
