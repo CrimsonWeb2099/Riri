@@ -8,7 +8,7 @@ Espero que todos tus sueños se hagan realidad y que siempre encuentres motivos 
 
 Gracias por ser una persona tan especial.
 
-Con mucho cariño,val.`;
+Con mucho cariño,val,.`;
 
 let i = 0;
 
